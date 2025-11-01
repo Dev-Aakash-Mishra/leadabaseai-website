@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - TWO GOOD CO.</title>
+    <script src="https://unpkg.com/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+            scrollbar-width: none;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .logo {
+            font-family: 'Futura', sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .cta-link {
+            text-decoration: none;
+            color: #000;
+            border-bottom: 2px solid #000;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .cta-link:hover {
+            padding-bottom: 3px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #000;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .footer-links {
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+    <script>
+        // Initialize Lenis smooth scroll
+        const lenis = new Lenis({
+            duration:2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            direction: 'vertical',
+            gestureDirection: 'vertical',
+            smooth: true,
+            mouseMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,
+            infinite: false,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">TWO GOOD CO.</div>
+            <a href="#contact" class="cta-link">Get in touch</a>
+        </header>
+
+        <h1>Privacy Policy</h1>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to TWO GOOD CO. Your privacy is paramount to us, and we are committed to protecting your personal data. This privacy policy explains how we handle your personal information in accordance with New Zealand law when you visit our website and informs you of your privacy rights.</p>
+
+        <h2>2. Important Information and Who We Are</h2>
+        <p>TWO GOOD CO. operates in accordance with New Zealand's data protection regulations. We are the controller and are responsible for your personal data.</p>
+
+        <h2>3. The Data We Collect About You</h2>
+        <p>The categories of personal data that we collect may include, but are not limited to:</p>
+        <ul>
+            <li>Identity Data (name, title, date of birth)</li>
+            <li>Contact Data (email address, telephone numbers, postal address)</li>
+            <li>Financial Data (bank account and payment card information)</li>
+            <li>Transaction Data (details about payments and services)</li>
+            <li>Technical Data (IP address, browser type, pages visited)</li>
+        </ul>
+
+        <h2>4. How Is Your Personal Data Collected?</h2>
+        <p>Data is collected through direct interactions with our website and services, as well as through automated technologies that record your interactions with our website.</p>
+
+        <h2>5. How We Use Your Personal Data</h2>
+        <p>We comply with New Zealand data protection laws and use your personal data only where it is lawful to do so. This may include fulfilling contracts, pursuing legitimate interests, or complying with legal obligations.</p>
+
+        <h2>6. Data Security</h2>
+        <p>In compliance with New Zealand law, we have implemented strong security measures to protect your data from unauthorized access, alteration, or disclosure.</p>
+
+        <h2>7. Data Retention</h2>
+        <p>We retain personal data for as long as necessary to fulfill the purposes outlined in this policy, in line with the legal requirements and regulations of New Zealand.</p>
+
+        <h2>8. Your Legal Rights</h2>
+        <p>You have specific rights regarding your personal data under New Zealand law, including the right to access, correct, or request the deletion of your personal data.</p>
+
+        <h2>9. International Transfers</h2>
+        <p>We comply with New Zealand regulations regarding the international transfer of personal data, ensuring that your data is protected in accordance with New Zealand law when transferred across borders.</p>
+
+        <h2>10. Third-Party Links</h2>
+        <p>Our website may link to external sites that are not operated by us. We have no control over and assume no responsibility for the content or privacy practices of any third-party sites.</p>
+
+        <h2>11. Contact Details</h2>
+        <p>If you have any questions about this privacy policy or our privacy practices, please contact us:</p>
+        <ul>
+            <li>Email: info@twogoodco.com</li>
+            <li>Address: Your Business Address</li>
+        </ul>
+
+        <h2>12. Changes to the Privacy Policy</h2>
+        <p>We reserve the right to update this policy at any time. Changes will be posted on this page with an updated revision date.</p>
+
+        <footer>
+            <p>© 2025 TWO GOOD CO.</p>
+            <div class="footer-links">
+                <a href="terms.html">Terms of Service</a> |
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+

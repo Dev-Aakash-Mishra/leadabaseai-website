@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Good Co</title>
+    <link rel="preload" href="assets/fonts/Futura-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/HelveticaNowText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
+
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <audio id="bg-audio" loop muted style="display: none;">
+        <source src="assets/videos/audio.mp3" type="audio/mpeg">
+    </audio>
+    <div id="cursor"></div>
+    <div id="main">
+        <div id="page1">
+            <div id="navbar">
+                <div id="nav-logo">
+                    <h1>TWO</h1>
+                    <h1>GOOD</h1>
+                    <h1>CO.</h1>
+                </div>
+                <div id="nav-links">
+                    <a href="#about">ABOUT</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#testimonials">IMPACT</a>
+                    <a href="#purpose">PURPOSE</a>
+                </div>
+            </div>
+            <h1 id="one">CHANGE</h1>
+            <h1 id="two">THE COURSE</h1>
+
+            <div id="video-container">
+                <div id="play">PLAY</div>
+                <video autoplay loop muted src="./assets/videos/video.mp4"></video>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <div class="shop">
+                    <p>We translate complexity into clear, actionable vision—where every step moves your brand forward.
+                    </p>
+                </div>
+                <div class="shop2">Stratagic Clarity</div>
+                <img src="./assets/images/spl1.png" alt="">
+            </div>
+            <div id="elem2" class="elem">
+                <div class="shop">
+                    <p>Every pixel, every word, every rhythm crafted to connect emotion with outcome.</p>
+                </div>
+                <div class="shop2">Creative Precision</div>
+
+                <img src="./assets/images/spl2.png" alt="">
+            </div>
+            <div id="elem3" class="elem">
+                <div class="shop">
+                    <p>We merge analytics with instinct to uncover what truly moves your audience.</p>
+                </div>
+                <div class="shop2">Insight Driven</div>
+
+                <img src="./assets/images/spl3.png" alt="">
+            </div>
+
+        </div>
+
+        <div id="text" class="section" data-section="about">
+            <div id="main-text">
+                <h1>WE BELIEVE IN PEOPLE</h1>
+                <h1>UNTIL THEY BELIEVE IN</h1>
+                <h1>THEMSELVES AGAIN</h1>
+            </div>
+            <div id="paras">
+                <p id="para1">When you choose us, you become a part of someone’s journey. Together, we uplift dreamers
+                    and give them the chance to discover their true potential.</p>
+                <p id="para2">Every time you trust us with your goals, you’re not just growing your brand, you’re making
+                    a real difference. Together, we champion new beginnings and open up possibilities for people ready
+                    to shape their own future.</p>
+                <a href="#contact">CONTACT US NOW </a>
+            </div>
+        </div>
+
+
+        <div id="page3" class="section" data-section="services">
+            <div class="child" id="child1">
+                <img src="./assets/images/img1.png" alt="">
+                <h1>Digital Strategy</h1>
+            </div>
+            <div class="child" id="child2">
+                <img src="assets/images/img2.png" alt="">
+                <h1>Online Presence</h1>
+
+            </div>
+            <div class="child" id="child3">
+                <img src="./assets/images/img3.png" alt="">
+                <h1>Analytics</h1>
+
+            </div>
+            <div class="child" id="child4">
+                <img src="./assets/images/img4.png" alt="">
+                <h1>CREATIVE BRANDING</h1>
+
+            </div>
+        </div>
+
+        <div id="timeline" class="section" data-section="testimonials">
+            <!-- Swiper slider -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Aarav Mehta
+                        <div id="line"></div>
+                        <div id="circle"></div>
+
+                    </div>
+                    <div class="swiper-slide">Sneha Iyer
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Rohan Deshpande
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Kavya Nair
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Arjun Kapoor
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Priya Bansal
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Vivek Sharma
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Ishita Verma
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                    <div class="swiper-slide">Rajat Khanna
+                        <div id="line"></div>
+                        <div id="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="Testimonials">
+                <h1 data-text><span class='text'></span></span></h1>
+            </div>
+        </div>
+
+
+
+        <div id="page4" class="section" data-section="purpose">
+            <div id="front">
+                <div id="upper-text">
+                    <h1>SO WE BUILD</h1>
+                    <h1 id='pink'>BRAND STORIES</h1>
+                </div>
+                <div id="bottom-text">
+                    <h1>AS THEY SHOULD BE</h1>
+                </div>
+            </div>
+            <div id="back">
+                <h1>ENTER TWO GOOD</h1>
+            </div>
+
+
+        </div>
+
+        <div id="cta-section">
+            <div id="cta-content">
+                <h2>Ready to Transform Your Brand?</h2>
+                <p>Let's create something extraordinary together</p>
+                <a href="#contact" class="cta-button">START YOUR PROJECT</a>
+            </div>
+        </div>
+
+        <div id="faq">
+            <section class="faq-section">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What services does TWO GOOD CO. offer? <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We help brands grow through digital strategy, web design, branding, and performance
+                                marketing.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Who is TWO GOOD CO. for? <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Our agency partners with startups, small businesses, and forward-thinking organizations
+                                ready to make their mark online.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How do I start a project? <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Just contact us! We'll discuss your goals and create a plan that’s tailored to your
+                                needs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What ’s your approach to design?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We believe less is more—our work is driven by clarity, purpose, and real results.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How long does a project take? <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Q5: How long does a project take?
+                                Timelines depend on your needs, but most projects are delivered within a few weeks. We
+                                always keep you updated, every step of the way.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div id="footer" class="section" data-section="contact">
+            <div id="footerhead">
+                <div id="social-link">
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://linkedin.com" target="_blank">Linkedin</a>
+                </div>
+                <div id="logo"><img src="assets/images/logo.png" alt=""></div>
+
+                <div id="web-link">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#purpose">Purpose</a>
+                    <a href="#testimonials">Testimonials</a>
+                </div>
+            </div>
+            <div id="footerfoot">
+                <p>At TWO GOOD CO., we believe in purposeful design and meaningful digital growth.
+                    Our team brings together creativity, strategy, and technology to transform brands into lasting
+                    experiences.
+                    Every project is an opportunity to push boundaries, solve real problems, and deliver real impact.
+                    Driven by curiosity and collaboration, we help ambitious businesses find their edge and tell their
+                    story—simply, beautifully, authentically.</p>
+                <div id="links">
+                    <a href="#">TWO GOOD COOKIES</a>
+                    <a href="terms.html">TERMS OF USE</a>
+                    <a href="privacy.html">PRIVACY POLICY</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

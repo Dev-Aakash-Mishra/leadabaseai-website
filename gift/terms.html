@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - TWO GOOD CO.</title>
+    <script src="https://unpkg.com/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+            scrollbar-width: none;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .logo {
+            font-family: 'Futura', sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .cta-link {
+            text-decoration: none;
+            color: #000;
+            border-bottom: 2px solid #000;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .cta-link:hover {
+            padding-bottom: 3px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #000;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .footer-links {
+            margin-bottom: 15px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+    <script>
+        // Initialize Lenis smooth scroll
+        const lenis = new Lenis({
+            duration: 2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            direction: 'vertical',
+            gestureDirection: 'vertical',
+            smooth: true,
+            mouseMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,
+            infinite: false,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">TWO GOOD CO.</div>
+            <a href="#contact" class="cta-link">Get in touch</a>
+        </header>
+
+        <h1>Terms of Service</h1>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to TWO GOOD CO. These Terms of Service ("Terms") govern your access to and use of our website and services. By accessing or using the service, you agree to be bound by these Terms.</p>
+
+        <h2>2. Services Provided</h2>
+        <p>TWO GOOD CO. provides digital strategy, web design, branding, content creation, and performance marketing services. These services are subject to the terms and conditions outlined in this document.</p>
+
+        <h2>3. Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. We will notify users of any changes by posting the new Terms on this site. Your continued use of the service after such changes constitutes your agreement to the new Terms.</p>
+
+        <h2>4. Account Registration and Use</h2>
+        <p>To access certain features of our service, you may be required to create an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.</p>
+
+        <h2>5. Privacy Policy</h2>
+        <p>Our Privacy Policy, which describes how we handle personal data, is available on our website and forms part of these Terms.</p>
+
+        <h2>6. User Conduct</h2>
+        <p>You agree to use the service only for lawful purposes and not to use the service for any illegal or unauthorized purpose.</p>
+
+        <h2>7. Intellectual Property</h2>
+        <p>All intellectual property rights in the service and its content are the exclusive property of TWO GOOD CO. or its licensors.</p>
+
+        <h2>8. Third-Party Services</h2>
+        <p>Our service may contain links to third-party websites or services that are not owned or controlled by TWO GOOD CO. We have no control over, and assume no responsibility for, the content or practices of any third-party websites or services.</p>
+
+        <h2>9. Termination</h2>
+        <p>We may terminate or suspend access to our service immediately, without prior notice or liability, for any reason, including without limitation if you breach the Terms.</p>
+
+        <h2>10. Governing Law</h2>
+        <p>These Terms shall be governed by and construed in accordance with the laws of New Zealand, without regard to its conflict of law provisions.</p>
+
+        <h2>11. Changes to Service</h2>
+        <p>We reserve the right to withdraw or amend our service, and any service or material we provide via the service, in our sole discretion without notice.</p>
+
+        <h2>12. Disclaimer and Limitation of Liability</h2>
+        <p>The service and its content are provided "as is" without warranty of any kind. In no event will TWO GOOD CO., nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.</p>
+
+        <h2>13. Contact Us</h2>
+        <p>For any questions about these Terms, please contact us:</p>
+        <ul>
+            <li>Email: info@twogoodco.com</li>
+            <li>Address: Your Business Address</li>
+        </ul>
+
+        <footer>
+            <p>© 2025 TWO GOOD CO.</p>
+            <div class="footer-links">
+                <a href="terms.html">Terms of Service</a> |
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
