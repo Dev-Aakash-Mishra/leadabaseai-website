@@ -1,3 +1,9 @@
+window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("fade-out");
+    setTimeout(() => preloader.remove(), 600);
+});
+
 function mouseEffect() {
     var video_container = document.querySelector("#video-container");
     var playBtn = document.querySelector("#play");
@@ -521,3 +527,4 @@ window.addEventListener("load", () => {
 
     });
 });
+
