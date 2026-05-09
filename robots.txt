@@ -2,3 +2,16 @@ User-agent: *
 Allow: /
 
 Sitemap: https://leadbaseai.in/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
