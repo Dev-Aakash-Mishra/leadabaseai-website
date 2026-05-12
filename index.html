@@ -1,72 +1,31 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBTHHVSFWY"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-VBTHHVSFWY');
-    </script>
-
-    <link rel="alternate" type="text/markdown" href="/index.md">
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LeadBaseAI</title>
-    <meta name="description"
-        content="LeadBaseAI — AI-powered lead generation and automation platform. Automate your workflows, generate leads, and scale your business." />
+    <meta name="description" content="LeadBaseAI — AI-powered lead generation and automation platform. Automate your workflows, generate leads, and scale your business." />
 
-    <!-- og tags -->
-    <meta property="og:title" content="LeadBaseAI | Your AI Employee for Lead Generation">
-    <meta property="og:description"
-        content="We deploy AI employees for your business so you can scale operations while our AI agents work 24/7.">
-    <meta property="og:image" content="https://leadbaseai.in/logo.png">
-    <meta property="og:url" content="https://leadbaseai.in/">
-    <meta property="og:type" content="website">
+    <!-- Google Fonts: Urbanist + DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-    <!-- canonical tag -->
-    <link rel="canonical" href="https://leadbaseai.in/">
-
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "url": "https://leadbaseai.in",
-        "name": "LeadBaseAI",
-        "logo": "https://leadbaseai.in/logo.png",
-        "sameAs": [
-            "https://www.instagram.com/leadbaseai",
-            "https://blog.leadbaseai.in"
-        ]
-        }
-    </script>
+    <!-- GSAP + ScrollTrigger + ScrollTo CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
 
 
-  <!-- Google Fonts: Urbanist + DM Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-
-  <!-- GSAP + ScrollTrigger + ScrollTo CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
-
-
-  <!-- Lenis Smooth Scroll CDN -->
-  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
-  <script type="module" crossorigin src="/assets/index-DIhSQkKI.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DJnhgD9U.css">
-</head>
-
-<body class="dark">
-  <div id="root"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-</body>
-
+    <!-- Lenis Smooth Scroll CDN -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script type="module" crossorigin src="/assets/main-D0gHJ7fx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-DJnhgD9U.css">
+  </head>
+  <body class="dark">
+    <div id="root"></div>
+    <!-- Three.js MUST load before React module to avoid race condition -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  </body>
 </html>
